@@ -3,7 +3,7 @@ MySQL:
   Enabled: false
   IP: 'deltaclanofficial.ml'
   Name: 'deltamc'
-  Username: 'Delta'
-  Password: '1e8d7e526b3c6281ceaa9d8227a16df74afbe8bbdcef01c3'
+  Username: 'root'
+  Password: 'password'
 Strings:
   Blacklisted_Reason: "&7You are &cblacklisted &7from Delta &cpermanently&7! \\n&f\\n&7Reason: &c%reason%\\n&7Staff: &c%staff%\\n&f\\n&7Appeal at &b&ndeltapvp.net&7!"
