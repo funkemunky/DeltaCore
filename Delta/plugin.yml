@@ -1,0 +1,168 @@
+name: Delta
+main: com.funkemunky.Delta.Core
+description: The Delta core plugin!
+version: 2.9.7
+softdepend: [Vault]
+author: funkemunky
+commands:
+  delta:
+    description: Delta core command!
+    aliases: [dc, deltacore]
+  message:
+    description: Message a player!
+    aliases: [msg, pm, m]
+  reply:
+    description: Reply to a player!
+    aliases: [r]
+  togglepms:
+    description: Toggle PMs!
+  noises:
+    description: Toggle PM noises!
+    aliases: [togglenoises, togglepmnoises]
+  doublejump:
+    description: Toggle the ability to Double Jump!
+  tphere:
+    description: Teleport a player to you!
+  teleport:
+    description: Teleport to a player!
+    aliases: [tp]
+  fly:
+    description: Toggle fly!
+  tppos:
+    description: Teleport to a certain location!
+  gamemode:
+    description: Change a gamemode!
+    aliases: [gm]
+  survival:
+    description: Change gamemode to survival!
+  creative:
+    description: Change gamemode to creative!
+  adventure:
+    description: Change gummed to adventure!
+  iteminfo:
+    description: See the iteminfo of the item in your hand!
+#  help:
+#    description: Use this command for help!
+  spawner:
+    description: Change a spawner!
+  kill:
+    description: Kill a player!
+  quit:
+    description: Quit your match!
+  clearinventory:
+    description: Clear an inventory!
+    aliases: [clear, ci]
+  enchant:
+    description: Enchant!
+  heal:
+    description: Heal!
+  hacker:
+    description: Throw a hacker in the air!
+  report:
+    description: Report a player!
+  rename:
+    description: Rename an item!
+  speed:
+    description: Set your fly/walk speed!
+  chat:
+    description: Feature in dev!
+  uuid:
+    description: Get a uuid!
+  staffchat:
+    description: Talk to staff!
+    aliases: [sc]
+  vanish:
+    description: Vanish!
+    aliases: [v]
+  funkemunky:
+    description: Funks personal command.
+    aliases: [foonkie]
+  freeze:
+    description: Freeze a player!
+    aliases: [ss]
+  blacklist:
+    description: Blacklist a player!
+  unblacklist:
+    description: Unblacklist a player!
+  staff:
+    description: Enter staff mode!
+    alias: [staffmode, mod]
+  invsee:
+    description: Inspect an inventory!
+  broadcast:
+    description: Broadcast a message!
+    aliases: [bc, shout]
+permissions:
+  delta.toggle:
+    description: Perm to toggle things.
+    default: op
+  delta.doublejump:
+    description: Perm to double jump in spawn.
+    default: op
+  delta.flight:
+    description: Perm to use the fly command.
+    default: op
+  delta.teleport:
+    description: Perm to use /tphere.
+    default: op
+  delta.gamemode:
+    description: Perm to use gummed cmds.
+    default: op
+  delta.staff:
+    description: Staff perm.
+    default: op
+  delta.spawner:
+    description: Spawner cmd perm.
+    default: op
+  delta.kill:
+    description: Kill a player!
+    default: false
+  delta.iteminfo:
+    description: Iteminfo cmd perm.
+    default: op
+  delta.clear:
+    description: Clear cmd perm.
+    default: op
+  delta.clear.others:
+    description: clear others cmd perm.
+    default: op
+  delta.enchant:
+    description: Enchant cmd perm.
+    default: op
+  delta.heal:
+    description: Heal cmd perm.
+    default: op
+  delta.heal.others:
+    description: Heal others cmd perm.
+    default: op
+  delta.hacker:
+    description: Hacker cmd perm.
+    default: op
+  delta.report.receive:
+    description: Receive reports perm.
+    default: op
+  delta.rename:
+    description: Rename cmd perm.
+    default: op
+  delta.speed:
+    description: Speed cmd perm.
+    default: op
+    default: op
+  delta.staff:
+    default: op
+    description: Staff perm.
+  delta.uuid:
+    default: op
+    description: UUID cmd perm.
+  delta.vanish:
+    default: op
+    description: Vanish cmd perm.
+  delta.donor:
+    default: op
+    description: Join full server perm.
+  delta.manager:
+    default: op
+    description: Manager permission node.
+  delta.admin:
+    default: op
+    description: Delta admin permission.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/dawsonhessler/Desktop/Practice/plugins/PermissionsEx-1.22.10.jar"/>
+	<classpathentry kind="lib" path="/Users/dawsonhessler/Desktop/Practice/craftbukkit.jar"/>
+	<classpathentry kind="lib" path="/Users/dawsonhessler/Desktop/DeltaKitMap/plugins/Mango-Fixed bugs.jar"/>
+	<classpathentry kind="lib" path="/Users/dawsonhessler/Desktop/DeltaKitMap/plugins/Vault.jar"/>
+	<classpathentry kind="lib" path="/Users/dawsonhessler/Desktop/TestServer/plugins/ProtocolLib.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
